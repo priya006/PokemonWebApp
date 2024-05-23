@@ -1,4 +1,4 @@
-package com.pokemonwebapp.demo
+package com.pokemonbackend.demo
 
 
 import org.slf4j.LoggerFactory
@@ -19,7 +19,6 @@ class PokemonService(private val webClient: WebClient) {
             .bodyToMono(PokemonListResponse::class.java)
             .doOnNext { logger.info("Fetched Pokemon: $it") }
             .doOnError { logger.error("Error fetching Pokemon: ${it.message}") }
-
 
     }
 }

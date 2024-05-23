@@ -1,4 +1,4 @@
-package com.pokemonwebapp.demo
+package com.pokemonbackend.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
