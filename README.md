@@ -1,5 +1,5 @@
 BackEnd - Spring boot Web app framework, Kotlin Language
-FrontEnd - Using React, Java Script, Html , CSS
+FrontEnd - Using  Java Script, Html , CSS
 
 
 
