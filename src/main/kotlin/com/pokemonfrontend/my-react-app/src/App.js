@@ -7,7 +7,7 @@ function PokemonList() {
 
   useEffect(() => {
     console.log('Fetching Pokémon data...');
-    fetch('http://localhost:8081/pokemon')
+    fetch('http://localhost:8082/pokemon/$name')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
