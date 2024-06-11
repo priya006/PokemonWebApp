@@ -1,5 +1,6 @@
 package com.pokemonbackend.demo.leetcode
 
+//https://leetcode.com/problems/word-break/description/
 class WordBreak {
 
     fun wordBreak(s: String, wordDict: List<String>): Boolean {

@@ -1,5 +1,6 @@
 package com.pokemonbackend.demo.leetcode
 
+//https://leetcode.com/problems/add-binary/description/
 class AddBinary {
 
     fun addTheBinaries(a : String, b :String):String{
