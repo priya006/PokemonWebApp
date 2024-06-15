@@ -2,25 +2,31 @@ package com.pokemonbackend.demo.leetcode
 
 class longestrepeatingcharacterreplacement {
     fun characterReplacement(s: String, k: Int): Int {
-
-        var hashMap = mutableMapOf<Char,Int>()
-        var mostFrequenetCharacter = 0
-        //sliding window
+        var jumpingPointer = 0
         var fixedPointer = 0
-        var jumingPointer = 0
-        var repeatingCharacter = 0
-        var max = 0
+        var maxRepeatingCharacter = 0
+        var maxSubstringLength = 0
+        val hashMap = mutableMapOf<Char, Int>()
 
-        for(jumingPointer in 0 until s.length){
-            hashMap.put(s[jumingPointer], hashMap.getOrDefault(s[jumingPointer],0)+1)
-            repeatingCharacter = Math.max(repeatingCharacter, hashMap.get(s[jumingPointer])!!)
-            var window = jumingPointer - fixedPointer + 1
-            if(window - repeatingCharacter >= k){
-                hashMap.put(s[jumingPointer] ,hashMap.get(s[jumingPointer])!!-1 )
-                fixedPointer ++
+        // Traversing the given String
+        while (jumpingPointer < s.length) {
+            hashMap[s[jumpingPointer]] = hashMap.getOrDefault(s[jumpingPointer], 0) + 1
+            maxRepeatingCharacter = Math.max(maxRepeatingCharacter, hashMap[s[jumpingPointer]]!!)
+
+            val windowLength = jumpingPointer - fixedPointer + 1
+
+            // If the current window is invalid (more than k replacements needed), shrink the window
+            if (windowLength - maxRepeatingCharacter > k) {
+                hashMap[s[fixedPointer]] = hashMap[s[fixedPointer]]!! - 1
+                fixedPointer++
             }
-            max = Math.max(max, window)
+
+            // Update the maximum substring length after potentially shrinking the window
+            maxSubstringLength = Math.max(maxSubstringLength, jumpingPointer - fixedPointer + 1)
+
+            jumpingPointer++
         }
-        return  max
+
+        return maxSubstringLength
     }
 }
