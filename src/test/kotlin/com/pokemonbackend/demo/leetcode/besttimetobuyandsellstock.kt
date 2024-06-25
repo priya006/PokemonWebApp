@@ -21,3 +21,6 @@ class besttimetobuyandsellstock {
         return maxProfit
     }
 }
+
+//Hint: Two pointer. buy is leftpointer and sell is rightpointer. check if the buy is less than and find the profit.
+//keep track of the maxprofit. when buy < sell not true. Move both the pointers
