@@ -1,0 +1,23 @@
+package com.pokemonbackend.demo.leetcode
+
+class besttimetobuyandsellstock {
+    fun maxProfit(prices: IntArray): Int {
+
+        var leftPointer = 0
+        var maxProfit = 0
+        //traversing the array
+        for(rightPointer in 1 until prices.size){
+            //Check if buy is less < than sell and find the profit
+            if(prices[leftPointer] < prices[rightPointer]){
+                //find the profit
+                var  profit = prices[rightPointer] - prices[leftPointer]
+                maxProfit = Math.max(maxProfit, profit)
+            }else{
+                leftPointer = rightPointer
+            }
+
+
+        }
+        return maxProfit
+    }
+}
