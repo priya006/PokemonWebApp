@@ -13,9 +13,11 @@ class TwoSum {
             hashMap[element] = index
         }
 
+        //If there is no valid pair
         return intArrayOf()
 
 
     }
-
+//Hint: for((index,element) in nums.withIndex()) The hashmap has the answer as key and value as the
+    //index, return empty intArrayOf() if there is no valid indices
 }

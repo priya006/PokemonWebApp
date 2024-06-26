@@ -20,3 +20,6 @@ class moveZeroes {
 
     }
 }
+//Hint: Solve using two pointer method. fixed pointer knows where you can put the non zero element,
+//look for element which is not zero and make a swap
+//put zero for the jumping pointer 
