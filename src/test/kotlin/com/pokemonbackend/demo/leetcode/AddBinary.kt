@@ -32,11 +32,5 @@ class Solution {
     }
 }
 
-fun main(){
-    val addBinary = AddBinary()
-    var a = "11"
-    var b = "1"
-    println(addBinary.addTheBinaries(a,b))
 
-}
 

@@ -2,6 +2,8 @@ package com.pokemonbackend.demo.leetcode
 
 class besttimetobuyandsellstock {
     fun maxProfit(prices: IntArray): Int {
+        //If the input is zero
+        if (prices.isEmpty()) return 0
 
         var leftPointer = 0
         var maxProfit = 0
