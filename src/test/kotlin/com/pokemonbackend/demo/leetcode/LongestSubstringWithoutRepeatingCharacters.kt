@@ -23,3 +23,6 @@ class LongestSubstringWithoutRepeatingCharacters {
 
     }
 }
+
+
+//Hint: [Sliding window] Remember to track the max. get the maxOf(hashset.size, max) after u add character to the hashSet

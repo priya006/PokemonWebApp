@@ -30,3 +30,5 @@ class longestrepeatingcharacterreplacement {
         return maxSubstringLength
     }
 }
+
+//Hint:

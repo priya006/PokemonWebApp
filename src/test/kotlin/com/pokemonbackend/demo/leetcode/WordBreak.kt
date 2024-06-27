@@ -23,3 +23,6 @@ class WordBreak {
         return booleanArray[s.length]
     }
 }
+
+//Hint: Substring, If the substring is found in the hashSet.if yes. Make the booleanArray[i] as true.
+// The inner forloop has "until" so the sustring(j,i) works
