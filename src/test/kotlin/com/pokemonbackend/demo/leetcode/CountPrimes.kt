@@ -22,3 +22,7 @@ class CountPrimes {
         return isPrime.count { it }
     }
 }
+
+//Hint: Sieve of Eratosthenes. Think of the big matrix. So the for loop has Math.sqrt+1
+//Make the prime numbers as false, make the edge case as false.
+//Now count the remaining ones from booleanArray

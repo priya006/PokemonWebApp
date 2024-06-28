@@ -20,4 +20,4 @@ class MajorityElement {
 
 //Hint:Boyers-moyers algorithm.Keep the result and the count.If you see the number in the "count" becoming
 //zero then change the result being the current element in array
-//else increase the count when result == element from array else decrement the count 
+//else increase the count when result == element from array else decrement the count
