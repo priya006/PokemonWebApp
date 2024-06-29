@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.Array
 
 class productofarrayexceptself {
     fun productExceptSelf(nums: IntArray): IntArray {

@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.String
 
 class longestrepeatingcharacterreplacement {
     fun characterReplacement(s: String, k: Int): Int {

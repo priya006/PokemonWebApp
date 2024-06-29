@@ -1,4 +1,6 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.LinkedList
+
+import com.pokemonbackend.demo.leetcode.LinkedList.ListNode
 
 class linkedlistcycle {
 
@@ -10,9 +12,7 @@ class linkedlistcycle {
         while(fast != null && fast.next != null){
             fast = fast?.next?.next
             slow = slow?.next
-
             if(fast == slow)  return true
-
         }
         return false
 

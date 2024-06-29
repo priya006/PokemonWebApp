@@ -1,4 +1,7 @@
 package com.pokemonbackend.demo.leetcode
+
+import com.pokemonbackend.demo.leetcode.LinkedList.ListNode
+
 //https://leetcode.com/problems/add-two-numbers/description/
 class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {

@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.Array
 
 class besttimetobuyandsellstock {
     fun maxProfit(prices: IntArray): Int {

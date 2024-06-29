@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.String
 
 //https://leetcode.com/problems/longest-substring-without-repeating-characters/
 class LongestSubstringWithoutRepeatingCharacters {

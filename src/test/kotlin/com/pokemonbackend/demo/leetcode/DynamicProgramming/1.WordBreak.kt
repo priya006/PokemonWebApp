@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.DynamicProgramming
 
 //https://leetcode.com/problems/word-break/description/
 class WordBreak {
