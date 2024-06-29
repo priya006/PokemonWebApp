@@ -1,0 +1,4 @@
+package KotlinQuestions
+
+class SwapWithoutUsingTempVariable {
+}

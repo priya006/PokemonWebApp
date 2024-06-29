@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo
+package com.pokemonbackend.demo.leetcode.implementation
 
 interface Queue<T:Any> {
 
