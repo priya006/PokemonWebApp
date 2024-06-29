@@ -21,3 +21,4 @@ class linkedlistcycle {
 
 
 //Hint:Floyd's and tortise and hare.
+//when they both meet. That means there is a cycle return true
