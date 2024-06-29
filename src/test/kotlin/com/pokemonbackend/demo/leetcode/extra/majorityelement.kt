@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.extra
 
 class MajorityElement {
     fun majorityElement(nums: IntArray): Int {

@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.extra
 
 import com.pokemonbackend.demo.leetcode.LinkedList.ListNode
 

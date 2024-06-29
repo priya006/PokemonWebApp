@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode
+package com.pokemonbackend.demo.leetcode.extra
 
 //https://leetcode.com/problems/move-zeroes/description/
 class moveZeroes {
