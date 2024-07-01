@@ -13,3 +13,8 @@ class Solution {
         return count
     }
 }
+
+
+//Hint:
+//1. To find if there is 1 and the number with 1
+//2. To procees to next position shift the number to right(ushr)
