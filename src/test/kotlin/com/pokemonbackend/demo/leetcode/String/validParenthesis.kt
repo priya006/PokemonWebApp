@@ -1,4 +1,4 @@
-package com.pokemonbackend.demo.leetcode.extra
+package com.pokemonbackend.demo.leetcode.String
 
 //Writting extension function for String
 
