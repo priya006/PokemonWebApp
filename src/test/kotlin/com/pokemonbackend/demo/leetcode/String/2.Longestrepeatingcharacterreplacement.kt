@@ -32,3 +32,5 @@ class longestrepeatingcharacterreplacement {
 }
 
 //Hint:
+//Sliding window
+//jumpingPointer - fixedPointer + 1 - this is how we calculate the substring

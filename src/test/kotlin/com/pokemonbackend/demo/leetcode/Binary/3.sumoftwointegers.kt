@@ -1,23 +1,27 @@
 package com.pokemonbackend.demo.leetcode.Binary
 
-class Sumoftwointegers {
+//https://leetcode.com/problems/sum-of-two-integers/
+
+class sumOfTwoIntegers {
     fun getSum(a: Int, b: Int): Int {
 
-        var sum = a
-        var carry = b
+        var firstNumber = a
+        var secondNumber = b
+        var carry = 0
 
-        while(carry != 0){
-            val temp = (sum and carry) shl 1
-            sum = sum xor carry
-            carry = temp
+
+        //Logic for adding
+        while(secondNumber != 0){
+            carry = (firstNumber and secondNumber) shl 1
+            firstNumber = firstNumber xor secondNumber
+            secondNumber = carry
         }
-        return sum
+        return firstNumber
     }
-}
 
-//Hint: I dont have satisfaction in this problem
-//Assigning a to sum and b to carry
-//make sure carry != 0
-//the reason we are going shift left because of the carry
-//sum does not care about carry
-//According to video we are doing XOR and then we do shift left because we have a carry
+}
+//Hint:
+//Assiging x = a , y = b is mandate. So we dont mess with a and b
+//anding gives us the carry
+//whe you xor the second time u must xor with carry
+//when anding we must think what is the second number. If that is 0 then we must exit the loop

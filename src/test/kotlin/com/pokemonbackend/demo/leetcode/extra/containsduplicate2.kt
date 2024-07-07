@@ -1,16 +1,18 @@
 package com.pokemonbackend.demo.leetcode.extra
 
 //https://leetcode.com/problems/contains-duplicate-ii/
-class containsduplicate2 {
+class containsDuplicate2 {
     fun containsNearbyDuplicate(nums: IntArray, k: Int): Boolean {
-        //build a hashSet  of the window size K
-        val hashSet = HashSet<Int>()
-        //traverse the array
-        for(i in nums.indices){
-            //remove the leftmost element in the hashset if i> k
-            if(i>k) hashSet.remove(nums[i-k-1])
-            //If we could not add to hash set then it means there is duplicate
-            if(!hashSet.add(nums[i])) return true
+        val map = mutableMapOf<Int, Int>()
+
+        for (i in nums.indices) {
+
+            val num = nums[i]
+
+            if (map.containsKey(num) && i - map[num]!! <= k) {
+                return true
+            }
+            map[num] = i
         }
 
         return false

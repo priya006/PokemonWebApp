@@ -25,6 +25,7 @@ class mergeTwoLists {
                 tail.next = ListNode(l2.`val`)
                 l2 = l2.next
             }
+            //Important to have the null check with (!!)
             tail = tail.next!!
         }
         //edge case

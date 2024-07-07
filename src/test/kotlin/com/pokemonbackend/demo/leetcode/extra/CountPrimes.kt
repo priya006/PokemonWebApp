@@ -11,7 +11,7 @@ class CountPrimes {
         isPrime[0] = false
         isPrime[1] = false
 
-        for (i in 2 until Math.sqrt(n.toDouble()).toInt() + 1) {
+        for (i in 2..Math.sqrt(n.toDouble()).toInt()) {
             if (isPrime[i]) {
                 for (j in i * i until n step i) {
                     isPrime[j] = false
@@ -19,7 +19,7 @@ class CountPrimes {
             }
         }
 
-        return isPrime.count { it }
+        return isPrime.count { it == true }
     }
 }
 

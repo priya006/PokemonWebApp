@@ -26,3 +26,4 @@ class LongestSubstringWithoutRepeatingCharacters {
 
 
 //Hint: [Sliding window] Remember to track the max. get the maxOf(hashset.size, max) after u add character to the hashSet
+//Important: Only after adding a character u must increment jumping pointer. So pls DONT use for loop

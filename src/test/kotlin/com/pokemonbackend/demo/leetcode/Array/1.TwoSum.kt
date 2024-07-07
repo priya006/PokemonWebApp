@@ -18,6 +18,11 @@ class TwoSum {
 
 
     }
-//Hint: for((index,element) in nums.withIndex()) The hashmap has the answer as key and value as the
+//Hint:
+// All all the elements in array to hashmap
+// Calculate the answer
+//check if the hashmap has the answer
+//what ever the case add the element to the hashmap
+// remember: for((index,element) in nums.withIndex()) The hashmap has the "element" as key and value as the
     //index, return empty intArrayOf() if there is no valid indices
 }

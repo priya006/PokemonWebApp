@@ -25,4 +25,5 @@ class Solution {
 }
 //Hint: Move the fast pointer n times head of the slow pointer.
 //When the fast pointer.next = null then link the slowpointer next to slowpointer.next.next
+//IMPORTANT: Putting the dummy node is the key to this problem
 
