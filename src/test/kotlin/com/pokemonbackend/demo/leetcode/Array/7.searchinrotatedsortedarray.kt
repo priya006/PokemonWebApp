@@ -38,4 +38,4 @@ class searchinrotatedsortedarray {
 //Hint:
 //First find the mid
 //assuming that left side is sorted search in left side
-//assuming that right side is sorted search in right side 
+//assuming that right side is sorted search in right side
