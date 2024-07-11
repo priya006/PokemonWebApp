@@ -1,7 +1,10 @@
 package com.pokemonbackend.demo.leetcode.Array
 
+import java.util.LinkedList
+
 class maxProduct {
     fun maxProduct(nums: IntArray): Int {
+        
 
         var minProduct = nums[0]
         var maxProduct = nums[0]
