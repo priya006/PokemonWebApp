@@ -12,7 +12,7 @@ class containerwithmostwater {
 
 
             if(height[leftPointer] < height[rightPointer]){
-                //look for taller 
+                //look for taller
                 leftPointer ++
             }else{
                 rightPointer --
