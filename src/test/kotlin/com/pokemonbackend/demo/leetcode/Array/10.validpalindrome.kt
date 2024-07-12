@@ -35,4 +35,4 @@ class Solution {
 //Two Pointer Technique
 //Make sure the two pointer does not cross each other
 //first ignore the special characters both the sides
-//take each character from left and right conver to lower case and make sure they  are equal 
+//take each character from left and right conver to lower case and make sure they  are equal

@@ -1,5 +1,6 @@
 package com.pokemonbackend.demo.leetcode.Array
 
+//https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 class findminimuminrotatedsortedarray {
     fun findMin(nums: IntArray): Int {
         var left = 0
@@ -28,5 +29,6 @@ class findminimuminrotatedsortedarray {
 
 //Hint:
 //There are two arrays that has to be search left or right
+//minimum must be in the sorted part. 
 //After finding the minimum you must think if u must search left r right
 //If the input is rotated "sorted" array then  "visuvalise"  it

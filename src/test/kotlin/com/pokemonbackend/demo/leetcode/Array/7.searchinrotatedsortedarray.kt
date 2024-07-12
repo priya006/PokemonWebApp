@@ -1,5 +1,6 @@
 package com.pokemonbackend.demo.leetcode.Array
 
+//https://leetcode.com/problems/search-in-rotated-sorted-array/
 class searchinrotatedsortedarray {
     fun search(nums: IntArray, target: Int): Int {
         var left = 0
