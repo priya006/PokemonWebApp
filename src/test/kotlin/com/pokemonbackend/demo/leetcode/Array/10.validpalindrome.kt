@@ -1,5 +1,6 @@
 package com.pokemonbackend.demo.leetcode.Array
 
+//https://leetcode.com/problems/valid-palindrome/
 class Solution {
     fun isPalindrome(s: String): Boolean {
         //two pointer. Make sure left and right pointer does not cross each other
