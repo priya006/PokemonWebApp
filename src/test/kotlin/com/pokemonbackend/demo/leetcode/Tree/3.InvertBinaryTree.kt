@@ -7,9 +7,13 @@ class Solution {
         val left = invertTree(root.left)
         val right = invertTree(root.right)
 
+        //swapping the children
         root.left = right
         root.right = left
 
         return root
     }
 }
+
+
+//Hint: look into the children and swap them recursively
