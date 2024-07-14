@@ -25,4 +25,4 @@ class TwoSum2 {
 //Hint:
 //Sum = a + b
 //The two pointers are coming from two directions
-//The inputs is in ascending order that is a clue how to move forward the pointer 
+//The inputs is in ascending order that is a clue how to move forward the pointer
