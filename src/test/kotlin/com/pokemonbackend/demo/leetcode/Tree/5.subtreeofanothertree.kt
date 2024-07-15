@@ -30,4 +30,4 @@ class subtreeofanothertree {
 //Hint:
 //Think of recursively calling isSameTree
 //first wholly check
-//Then check if left and right has the subroot 
+//Then check if left and right has the subroot
