@@ -1,7 +1,7 @@
 package com.pokemonbackend.demo.leetcode.Tree
 
 
-
+//https://leetcode.com/problems/validate-binary-search-tree/description/
 class ValidateBinarySearchTree {
     fun isValidBST(root: TreeNode?): Boolean {
         return validate(root,null,null)
